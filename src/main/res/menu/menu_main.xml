@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.saraattarzadeh.actionbar.MainActivity">
+    <item
+        android:id="@+id/action_speech"
+        android:icon="@drawable/ic_action_microphone"
+        app:showAsAction="ifRoom"
+        android:title="Speech"/>
+    <item
+        android:id="@+id/action_call"
+        android:icon="@drawable/ic_action_call"
+        app:showAsAction="ifRoom"
+        android:title="Call"/>
+    <item
+        android:id="@+id/action_done"
+        android:icon="@drawable/ic_action_done"
+        app:showAsAction="ifRoom"
+        android:title="Done"/>
+    <item
+        android:id="@+id/action_contacts"
+        android:title="Contacts"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_status"
+        android:title="Status"
+        app:showAsAction="never" />
+
+</menu>
